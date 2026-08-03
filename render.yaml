@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: learning-to-begin-again
+    runtime: static
+    buildCommand: npm ci && npm run build
+    staticPublishPath: ./out
